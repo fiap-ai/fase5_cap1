@@ -1,0 +1,49 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Distribuição / empacotamento
+dist/
+build/
+*.egg-info/
+
+# Notebooks Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Arquivos de configuração local
+.env
+.venv
+.python-version
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+.directory
+desktop.ini
+
+# Arquivos temporários de editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Arquivos grandes que não devem ser versionados
+*.h5
+*.pkl
+*.model
+*.joblib
+*.zip
+*.tar.gz
